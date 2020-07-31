@@ -1,4 +1,4 @@
-# GDAL-Exercises
+# GDAL-rasterio-exercises
 
 ____________________________
 
