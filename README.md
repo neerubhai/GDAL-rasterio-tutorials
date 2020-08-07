@@ -9,3 +9,13 @@ In this tutorial, you'll learn the following:
 3. Peform a local raster operation across various bands. A local raster operation is a simple raster operation that uses only data at a cell location in the input to compute a value at that same location in the output raster. You'll learn this by calculating NDVI index that used red and NIR band values at every cell location.
 3. Write a raster dataset to disk and transfer the properties of the input raster to it, such as cell size, origin, spatial reference along with an appropriate NoDataValue selected based on the known or expected output value range. 
 4. Visualize your data (input and output) using rasterio.plot submodule.
+
+____________________________
+Tutorial 2 - Applying a spatial filter over a moving kernel.
+In this tutorial, you'll learn the following:
+1. Apply a spatial filter over a moving window on a raster dataset.
+2. Use utilities from built-in customized modules such as 'raster to numpy' and 'numpy to raster' to aid in the application of this filter.
+3. Script a moving window.
+4. Deal with boundary conditions.
+4. Work with Digital Elevation Model (DEM) data.
+5. Handle NoDataValues while performing analysis.
