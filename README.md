@@ -2,7 +2,7 @@
 
 ____________________________
 
-Tutorial 1 - Calculate NDVI index.
+### Tutorial 1 - Calculate NDVI index.
 In this tutorial, you'll learn the following:
 1. Basics of reading a raster (single or multi-band) using GDAL Python API. 
 2. Procure data from raster cells and transfer it to a numpy array. Procure raster properties such cell size, origin (X, Y), spatial reference and NoDataValue.
@@ -11,7 +11,7 @@ In this tutorial, you'll learn the following:
 4. Visualize your data (input and output) using rasterio.plot submodule.
 
 ____________________________
-Tutorial 2 - Applying a spatial filter over a moving kernel.
+### Tutorial 2 - Applying a spatial filter over a moving kernel.
 In this tutorial, you'll learn the following:
 1. Apply a spatial filter over a moving window on a raster dataset.
 2. Use utilities from built-in customized modules such as 'raster to numpy' and 'numpy to raster' to aid in the application of this filter.
