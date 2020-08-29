@@ -19,3 +19,10 @@ In this tutorial, you'll learn the following:
 4. Deal with boundary conditions.
 4. Work with Digital Elevation Model (DEM) data.
 5. Handle NoDataValues while performing analysis.
+
+____________________________
+### Tutorial 3 - Speed up analysis with concurrent and parallel processing techniques
+In this tutorial, you'll learn the following:
+1. How to speed up your analysis using concurrent processing
+2. How to speed up your analysis using parallel processing
+3. Compare concurrent and parallel processing against serialized execution and understand the speed up in performance.
