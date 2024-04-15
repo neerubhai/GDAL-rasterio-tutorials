@@ -3,6 +3,23 @@
 Welcome to GDAL-rasterio-tutorials, your go-to resource for mastering raster data processing with GDAL and Rasterio! 🚀 Whether you're a GIS professional, an environmental scientist, or just passionate about geospatial data, these tutorials are designed to enhance your skills in handling, analyzing, and visualizing raster data. Dive into these tutorials and start transforming raw data into insightful geospatial information.
 ____________________________
 
+## Setup
+
+1. You will need conda installed to create an environment and install GDAL. Once conda is installed, run
+`conda create -n raster_env python==3.10`
+
+2. Activate the new env. 
+`conda activate raster_env`
+
+3. Install GDAL
+`conda install -c conda-forge gdal`
+
+4. Install requirements
+`conda install --yes --file requirements.txt`
+
+5. Run notebook server
+`jupyter notebook`
+
 ### Tutorial 1 - Calculate NDVI index. 🌱
 In this tutorial, you'll learn the following:
 1. Basics of reading a raster (single or multi-band) using GDAL Python API. 
